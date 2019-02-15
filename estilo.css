@@ -8,26 +8,34 @@
 @keyframes animacao1
 {
   0% {background-image: url("imagens/cao-1.jpg");}
-  20% {background-image: url("imagens/gato-1.jpg");}
-  100% {background-image: url("imagens/cao-1.jpg");}
+  5% {background-image: url("imagens/cao-1.jpg");}
+  15% {background-image: url("imagens/gato-1.jpg");}
+  55% {background-image: url("imagens/gato-1.jpg");}
+  65% {background-image: url("imagens/cao-1.jpg");}
 }
 @keyframes animacao2
 {
   0% {background-image: url("imagens/cao-2.jpg");}
-  40% {background-image: url("imagens/gato-2.jpg");}
-  100% {background-image: url("imagens/cao-2.jpg");}
+  15% {background-image: url("imagens/cao-2.jpg");}
+  25% {background-image: url("imagens/gato-2.jpg");}
+  65% {background-image: url("imagens/gato-2.jpg");}
+  75% {background-image: url("imagens/cao-2.jpg");}
 }
 @keyframes animacao3
 {
   0% {background-image: url("imagens/cao-3.jpg");}
-  60% {background-image: url("imagens/gato-3.jpg");}
-  100% {background-image: url("imagens/cao-3.jpg");}
+  25% {background-image: url("imagens/cao-3.jpg");}
+  35% {background-image: url("imagens/gato-3.jpg");}
+  75% {background-image: url("imagens/gato-3.jpg");}
+  85% {background-image: url("imagens/cao-3.jpg");}
 }
 @keyframes animacao4
 {
   0% {background-image: url("imagens/cao-4.jpg");}
-  80% {background-image: url("imagens/gato-4.jpg");}
-  100% {background-image: url("imagens/cao-4.jpg");}
+  35% {background-image: url("imagens/cao-4.jpg");}
+  45% {background-image: url("imagens/gato-4.jpg");}
+  85% {background-image: url("imagens/gato-4.jpg");}
+  95% {background-image: url("imagens/cao-4.jpg");}
 }
 
 .bloco
@@ -36,30 +44,26 @@
   background-repeat: no-repeat;
   width: 300px;
   height: 300px;
-  animation-duration: 50s;
-  animation-delay: 0s;
+  animation-duration: 20s;
   animation-iteration-count: infinite;
-
 }
-.bloco1
+
+#bloco1
 {
   background-image: url("imagens/cao-1.jpg");
   animation-name: animacao1;
 }
-
-.bloco2
+#bloco2
 {
   background-image: url("imagens/cao-2.jpg");
   animation-name: animacao2;
 }
-
-.bloco3
+#bloco3
 {
   background-image: url("imagens/cao-3.jpg");
   animation-name: animacao3;
 }
-
-.bloco4
+#bloco4
 {
   background-image: url("imagens/cao-4.jpg");
   animation-name: animacao4;
