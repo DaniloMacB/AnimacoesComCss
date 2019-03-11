@@ -1,1 +1,1 @@
-# AnimacoesComCss
+Projeto criado para testar animacoes em css com keyframe.
